@@ -56,6 +56,11 @@ class AppConstants {
   'التسبحة',
   'الحصة',
 ];
+  static const List<String> activities = [
+  'القداس',
+  'التسبحة',
+  'الحصة',
+];
   AppConstants._();
 
   static const String appName = 'متابعة حضور حصة ألحان';
