@@ -51,6 +51,11 @@ class BuiltinActivity {
 
 /// ثوابت عامة للتطبيق
 class AppConstants {
+  static const List<String> attendanceCategories = [
+  'القداس',
+  'التسبحة',
+  'الحصة',
+];
   AppConstants._();
 
   static const String appName = 'متابعة حضور حصة ألحان';
